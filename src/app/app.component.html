@@ -1,0 +1,13 @@
+<div>
+  <form [formGroup]="addressInput">
+    <h1 class="title">Entrer une adresse :</h1>
+    <mat-form-field class='input__address'>
+      <input matInput type="text"  formControlName="address" (keyup)="updateAutoc()" placeholder="Entrez votre adresse" [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete" >
+        <mat-option *ngFor="let option of options" [value]="option" class="mat-option">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
+</div>

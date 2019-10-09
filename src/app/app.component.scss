@@ -1,0 +1,16 @@
+.title{
+  text-align: center;
+}
+
+.input{
+  &__address{
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+}
+
+.mat-option{
+  display: block;
+  margin: auto;
+}
