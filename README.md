@@ -18,3 +18,9 @@ L'application doit se composer:
 # Livraison finale
 
 La livraison final se fait via une Pull Request sur ce repository. Une relecture sera faite par un membre de l'équipe Tech de Follow
+
+
+# Technologies choisies
+
+- Framework Angular, Angular CLI, Angular Material
+- API pour récupérer les addresses par appel WS: https://geo.api.gouv.fr (gratuite)
